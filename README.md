@@ -4,17 +4,17 @@ This project implements Hashing-based PQ and FPQ used for image retrieval.
 
 ## Getting started
 
-1. Clone the application
+1. **Clone the application:** Clone  from the GitHub repository using the following command:
 
    ```bash
    git clone https://github.com/RepublicHo/AlgoEngineering3022.git
    ```
-2. As uploading large files to GitHub is not recommended, it is suggested that you download the training data from 
+2. **Download training data:** As uploading large files (training file exceeds the limit) to GitHub is not recommended, it is suggested that you download the training data from 
 [link](https://www.kaggle.com/competitions/digit-recognizer/data). And add this file into `src/main/resources/.` directory. 
 
-3. Please make sure to configure your JDK version to 1.8/17. 
+3. **Configure JDK:** Make sure that you have JDK 1.8 or JDK 17 configured in your system or IDE.
 
-4. Once you've completed the setup, you can run/debug the main function. To test the model, you can experiment with adjusting the amount of training/testing data.
+4. **Run/Debug:** Once you've completed the setup, you can run/debug the main method in `src/main/java/Experiment`. To test the model, you can experiment with adjusting the amount of training/testing data.
 
 ## Reference
 

@@ -2,7 +2,7 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 
 
-public class Main {
+public class Experiment {
 
     // you may modify the training/testing data amount here
     public static final int trainDataLength = 50000;
@@ -28,7 +28,7 @@ public class Main {
         PQ pq = new PQ(n, c);
 
         // Read data
-        String trainPath = Main.class.getClassLoader().getResource("mnist_train.csv").getFile();
+        String trainPath = Experiment.class.getClassLoader().getResource("mnist_train.csv").getFile();
         DataReader.DataSet trainData = DataReader.readData(trainPath, trainDataLength);
 
         // Compress
@@ -39,7 +39,7 @@ public class Main {
 
         // Recalculate prediction time consumption
         start = System.currentTimeMillis();
-        String testPath = Main.class.getClassLoader().getResource("mnist_test.csv").getFile();
+        String testPath = Experiment.class.getClassLoader().getResource("mnist_test.csv").getFile();
         DataReader.DataSet testData = DataReader.readData(testPath, testDataLength);
 
         System.gc();
@@ -76,7 +76,7 @@ public class Main {
         FPQ FPQ = new FPQ(n,c);
 
         // Read data
-        String trainPath = Main.class.getClassLoader().getResource("mnist_train.csv").getFile();
+        String trainPath = Experiment.class.getClassLoader().getResource("mnist_train.csv").getFile();
         DataReader.DataSet trainData = DataReader.readData(trainPath, trainDataLength);
 
         // Compress
@@ -87,7 +87,7 @@ public class Main {
 
         // calculate prediction and time consumption
         start = System.currentTimeMillis();
-        String testPath = Main.class.getClassLoader().getResource("mnist_test.csv").getFile();
+        String testPath = Experiment.class.getClassLoader().getResource("mnist_test.csv").getFile();
         DataReader.DataSet testData = DataReader.readData(testPath, testDataLength);
 
         System.gc();
