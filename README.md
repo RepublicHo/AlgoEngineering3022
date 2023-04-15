@@ -14,7 +14,7 @@ This project implements Hashing-based PQ and FPQ used for image retrieval.
 
 3. **Configure JDK:** Make sure that you have JDK 1.8 or JDK 17 configured in your system or IDE.
 
-4. **Run/Debug:** Once you've completed the setup, you can run/debug the main method in `src/main/java/Experiment`. To test the model, you can experiment with adjusting the amount of training/testing data.
+4. **Run/Debug:** Once you've completed the setup, you can compile and run/debug the main method in `src/main/java/Experiment`. You are suggested using IDE like Eclipse or Intellij. To test the model, you can experiment with adjusting the amount of training/testing data.
 
 ## Reference
 
