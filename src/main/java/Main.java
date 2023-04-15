@@ -94,7 +94,7 @@ public class Main {
         Thread.sleep(1000);
         MemoryMXBean memoryMXBean = ManagementFactory.getMemoryMXBean();
         System.out.println("Heap Memory Usage: " + memoryMXBean.getHeapMemoryUsage() + "\n");
-        
+
         // total num of testData
         int total = 0;
         // correct prediction #
